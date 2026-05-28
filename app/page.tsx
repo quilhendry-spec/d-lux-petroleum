@@ -120,7 +120,11 @@ export default function Home() {
       Request a Fuel Quote
     </h2>
 
-    <form className="grid gap-4">
+    <form
+  action="https://formsubmit.co/quilhendry@gmail.com"
+  method="POST"
+  className="grid gap-4"
+>
 
       <input
         type="text"
