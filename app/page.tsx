@@ -109,7 +109,65 @@ export default function Home() {
         <p>Email: quilhendry@gmail.com</p>
         <p>Location: Rivonia, South Africa</p>
       </section>
+{/* QUOTE FORM */}
+<section
+  id="quote"
+  className="py-20 px-6 bg-gray-100"
+>
+  <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow">
 
+    <h2 className="text-3xl font-bold mb-6 text-center">
+      Request a Fuel Quote
+    </h2>
+
+    <form className="grid gap-4">
+
+      <input
+        type="text"
+        placeholder="Full Name"
+        className="border p-3 rounded-xl"
+      />
+
+      <input
+        type="text"
+        placeholder="Company Name"
+        className="border p-3 rounded-xl"
+      />
+
+      <input
+        type="tel"
+        placeholder="Phone Number"
+        className="border p-3 rounded-xl"
+      />
+
+      <input
+        type="email"
+        placeholder="Email Address"
+        className="border p-3 rounded-xl"
+      />
+
+      <input
+        type="text"
+        placeholder="Fuel Quantity Needed"
+        className="border p-3 rounded-xl"
+      />
+
+      <textarea
+        placeholder="Additional Information"
+        rows={5}
+        className="border p-3 rounded-xl"
+      />
+
+      <button
+        type="submit"
+        className="bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition"
+      >
+        Submit Quote Request
+      </button>
+
+    </form>
+  </div>
+</section>
       {/* FOOTER */}
       <footer className="bg-black text-white text-center py-6">
         © 2026 D-Lux Petroleum
