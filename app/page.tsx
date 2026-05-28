@@ -120,79 +120,64 @@ export default function Home() {
       Request a Fuel Quote
     </h2>
 
-<form
-  action="https://formsubmit.co/https://formsubmit.co/quilhendry@gmail.com
-  method="POST"
-  className="grid gap-4"
->
+    <form
+      action="https://formsubmit.co/quilhendry@gmail.com"
+      method="POST"
+      className="grid gap-4"
+    >
 
-  <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_template" value="table" />
-  <input
-    type="hidden"
-    name="_subject"
-    value="New Fuel Quote Request"
-  />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Fuel Quote Request"
+      />
 
-  <input
-    type="text"
-    name="Full Name"
-    placeholder="Full Name"
-    className="border p-3 rounded-xl"
-    required
-  />
+      <input
+        type="text"
+        name="Full Name"
+        placeholder="Full Name"
+        className="border p-3 rounded-xl"
+        required
+      />
 
-  <input
-    type="text"
-    name="Company"
-    placeholder="Company Name"
-    className="border p-3 rounded-xl"
-  />
+      <input
+        type="text"
+        name="Company"
+        placeholder="Company Name"
+        className="border p-3 rounded-xl"
+      />
 
-  <input
-    type="tel"
-    name="Phone"
-    placeholder="Phone Number"
-    className="border p-3 rounded-xl"
-    required
-  />
+      <input
+        type="tel"
+        name="Phone"
+        placeholder="Phone Number"
+        className="border p-3 rounded-xl"
+        required
+      />
 
-  <input
-    type="email"
-    name="Email"
-    placeholder="Email Address"
-    className="border p-3 rounded-xl"
-    required
-  />
+      <input
+        type="email"
+        name="Email"
+        placeholder="Email Address"
+        className="border p-3 rounded-xl"
+        required
+      />
 
-  <input
-    type="text"
-    name="Fuel Quantity"
-    placeholder="Fuel Quantity Needed"
-    className="border p-3 rounded-xl"
-  />
-
-  <textarea
-    name="Message"
-    placeholder="Additional Information"
-    rows={5}
-    className="border p-3 rounded-xl"
-  />
-
-  <button
-    type="submit"
-    className="bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition"
-  >
-    Submit Quote Request
-  </button>
-
-</form>
+      <input
+        type="text"
+        name="Fuel Quantity"
+        placeholder="Fuel Quantity Needed"
+        className="border p-3 rounded-xl"
+      />
 
       <textarea
+        name="Message"
         placeholder="Additional Information"
         rows={5}
         className="border p-3 rounded-xl"
-      />
+      ></textarea>
 
       <button
         type="submit"
@@ -202,6 +187,7 @@ export default function Home() {
       </button>
 
     </form>
+
   </div>
 </section>
       {/* FOOTER */}
