@@ -1,25 +1,42 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Home() {
+
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
 
-      {/* HEADER */}
-      <header className="p-6 flex justify-between items-center shadow">
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center font-bold">
-            DL
-          </div>
-          <h1 className="text-xl font-bold">D-Lux Petroleum</h1>
-        </div>
+  <header className="p-6 flex justify-between items-center shadow">
+  <div className="flex items-center gap-3">
 
-        <a
-          href="https://wa.me/27661427934"
-          className="bg-green-500 text-white px-4 py-2 rounded-xl"
-        >
-          WhatsApp
-        </a>
-      </header>
+    <Image
+      src="/logo.png"
+      alt="D-Lux Petroleum Logo"
+      width={60}
+      height={60}
+      className="rounded-full"
+    />
+
+    <div>
+      <h1 className="text-xl font-bold">
+        D-Lux Petroleum
+      </h1>
+
+      <p className="text-sm text-gray-500">
+        Fuel & Energy Solutions
+      </p>
+    </div>
+
+  </div>
+
+  <a
+    href="https://wa.me/27661427934"
+    className="bg-green-500 text-white px-4 py-2 rounded-xl"
+  >
+    WhatsApp
+  </a>
+</header>
 
       {/* HERO */}
       <section className="bg-black text-white text-center py-24 px-6">
