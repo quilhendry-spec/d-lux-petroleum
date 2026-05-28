@@ -126,35 +126,54 @@ export default function Home() {
   className="grid gap-4"
 >
 
-      <input
-        type="text"
-        placeholder="Full Name"
-        className="border p-3 rounded-xl"
-      />
+     <input
+  type="text"
+  name="Full Name"
+  placeholder="Full Name"
+  className="border p-3 rounded-xl"
+/>
 
       <input
-        type="text"
-        placeholder="Company Name"
-        className="border p-3 rounded-xl"
-      />
+  type="text"
+  name="Full Name"
+  placeholder="Full Name"
+  className="border p-3 rounded-xl"
+/>
 
       <input
-        type="tel"
-        placeholder="Phone Number"
-        className="border p-3 rounded-xl"
-      />
+  type="text"
+  name="Company Name"
+  placeholder="Company Name"
+  className="border p-3 rounded-xl"
+/>
 
       <input
-        type="email"
-        placeholder="Email Address"
-        className="border p-3 rounded-xl"
-      />
+  type="text"
+  name="Full Name"
+  placeholder="Full Name"
+  className="border p-3 rounded-xl"
+/>
+
+     <input
+  type="text"
+  name="Full Name"
+  placeholder="Full Name"
+  className="border p-3 rounded-xl"
+/>
 
       <input
-        type="text"
-        placeholder="Fuel Quantity Needed"
-        className="border p-3 rounded-xl"
-      />
+  type="text"
+  name="Full Name"
+  placeholder="Full Name"
+  className="border p-3 rounded-xl"
+/>
+
+      <input
+  type="text"
+  name="Company Name"
+  placeholder="Company Name"
+  className="border p-3 rounded-xl"
+/>
 
       <textarea
         placeholder="Additional Information"
