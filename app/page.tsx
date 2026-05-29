@@ -1,5 +1,15 @@
-"use client";
 
+export const metadata = {
+  title: "D-Lux Petroleum | Bulk Fuel Supply & Diesel Delivery South Africa",
+
+  description:
+    "D-Lux Petroleum provides reliable diesel delivery, bulk fuel supply, and commercial petroleum solutions across South Africa.",
+
+  keywords:
+    "fuel supply, diesel delivery, petroleum company, bulk diesel, fuel supplier South Africa, commercial fuel solutions",
+
+  authors: [{ name: "D-Lux Petroleum" }],
+};
 import Image from "next/image";
 
 export default function Home() {
